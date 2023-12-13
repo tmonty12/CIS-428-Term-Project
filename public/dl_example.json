@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/vdl/v1"
+    ],
+    "type": ["VerifiableCredential", "Iso18013DriversLicenseCredential"],
+    "issuer": {
+        "id": "",
+        "name": "New York DMV"
+    },
+    "issuanceDate": "",
+    "expirationDate": "",
+    "credentialSubject": {
+        "id": "",
+        "type": "LicensedDriver",
+        "driversLicense": {
+            "type": "Iso18013DriversLicense",
+            "document_number": "",
+            "family_name": "",
+            "given_name": "",
+            "birth_date": "",
+            "issue_date": "",
+            "expiry_date": "",
+            "issuing_country": "USA",
+            "issuing_authority": "New York DMV",
+            "driving_privileges": [{
+                "codes": [{"code": "D"}],
+                "vehicle_category_code": "D",
+                "issue_date": "",
+                "expiry_date": ""
+            }],
+            "un_distinguishing_sign": "USA",
+            "sex": 2,
+            "height": 20,
+            "weight": 20,
+            "eye_colour": "",
+            "hair_colour": "",
+            "resident_address":"",
+            "resident_city": "",
+            "resident_state": "New York",
+            "resident_postal_code": ""
+    }
+  }
+}
